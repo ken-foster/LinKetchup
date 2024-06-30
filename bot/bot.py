@@ -11,8 +11,6 @@ VERSION = "LinKetchup Test 6-29"
 HOME_GUILD_ID = "833477250841837598"
 STDOUT_CHANNEL_ID = "1256819760759570464"
 
-DISCORD_TOKEN = "MTI1NjgyMTA0Mjc3MzYyNjk5Mg.G60tG9.Z5p87Cyy8AH5lnyWicf2OD67o115BN6wHJVsak"
-
 class Bot(lightbulb.BotApp):
     def __init__(self) -> None:
         self.scheduler = AsyncIOScheduler()
